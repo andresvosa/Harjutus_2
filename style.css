@@ -7,7 +7,7 @@ header .header-banner {
 
 background-image: url("img/Cookbook-Banner.jpg");
 width: 100%;
-height: calc(100vh - 500px);
+height: calc(100vh - 1500px);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -78,16 +78,27 @@ footer {
 
 width: calc(100% - 80px);
 padding: 40px 40px;
-background-color: #172029;
+background-color: #23a023;
 margin-top: 20px;
 overflow: hidden;
 }
 
 .disclaimer {
 
-display: none;
+/*display: none;*/
+display: block;
+font-family: "Open Sans", sans-serif;
+font-weight: 300;
+font-size: 10px;
+letter-spacing: 2px;
+line-height: 24px;
+color: #ffffff;
+text-transform: uppercase;
+float: left;
+margin: 0 80px;
 
 }
+
 footer ul {
 
 width: fit-content;
@@ -152,15 +163,15 @@ margin-bottom: 5px;
 
 .gallery-h2 {
 
-font-family: "Gentium Basic", sans-serif;
-font-weight: 600;
-font-size: 28px;
+font-family: "Open Sans", sans-serif;
+font-weight: 400;
+font-size: 18px;
 letter-spacing: 2px;
-padding: 10px;
-color: #3a383d;
+/*padding: 100px;*/
+color: #172029;
 text-transform: uppercase;
-text-align: center;
-
+text-align: left;
+padding-left: 90px;
 }
 
 .gallery-image {
@@ -174,6 +185,15 @@ flex-basis: 300px;
     
 } 
 
+.we-image img {
+    
+display: block;
+width: 50%;
+height: auto;
+padding-left: 95px;
+float: right;   
+    
+} 
 .post-header {       
 
 /*kujundus*/
@@ -220,7 +240,7 @@ header .header-banner {
 
 header h1 a {
 
-      font-size: 80px;
+      font-size: 100px;
 
 }  
 
@@ -249,12 +269,6 @@ header nav ul li {
       text-transform: uppercase;
       float: left;
       margin: 0 80px;
-
-}
-
-.disclaimer span {
-
-      font-style: italic;
 
 }
     
